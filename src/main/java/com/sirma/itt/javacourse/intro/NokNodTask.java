@@ -3,6 +3,7 @@ package com.sirma.itt.javacourse.intro;
 import java.util.Scanner;
 
 /**
+ * REVIEW: write more meaningful comments
  * asd.
  * 
  * @author Fester
@@ -10,6 +11,8 @@ import java.util.Scanner;
 public class NokNodTask {
 
 	/**
+	 * REVIEW: missing comment
+	 * REVIEW: all variables,fields, arguments, class names, interfaces must have meaningful names
 	 * @param x
 	 *            integer
 	 * @param y
@@ -40,6 +43,8 @@ public class NokNodTask {
 	}
 
 	/**
+	 * REVIEW: Към всяка задача трябва да има "run" клас, който да съдържа main method, изпълняващ задачата
+	 * main should be in separated class
 	 * main.
 	 * 
 	 * @param args
