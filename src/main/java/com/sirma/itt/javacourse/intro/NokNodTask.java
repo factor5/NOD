@@ -16,6 +16,7 @@ public class NokNodTask {
 	 *            integer
 	 * @return GCD of x and y
 	 */
+	  // REVIEW: give better names to variables
 	public static int nod(int x, int y) {
 		while (x != y) {
 			if (x > y) {
@@ -51,6 +52,7 @@ public class NokNodTask {
 		int x = sc.nextInt();
 		int y = sc.nextInt();
 
+		// REVIEW: scanner is not closed at the end!
 		System.out.println(nok(x, y));
 	}
 }
