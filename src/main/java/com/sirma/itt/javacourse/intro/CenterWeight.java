@@ -16,6 +16,8 @@ public class CenterWeight {
 		System.out.println(arr[arrWeight(arr)]);
 	}
 
+	// REVIEW: check arguments
+	// REVIEW: optimize loops by caching calculated variables and object lookups before the loop
 	public static int arrWeight(int[] arr) {
 		int x1 = arr[0], x2 = arr[arr.length - 1], countLeft = 1, countRight = 1;
 		for (int i = 1; i < arr.length - 2; i++) {
