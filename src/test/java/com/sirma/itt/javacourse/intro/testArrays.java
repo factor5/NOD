@@ -9,6 +9,7 @@ import org.junit.Test;
  * 
  * @author Fester
  */
+ // REVIEW: the class name and the file name did not match
 public class TestArrays {
 
 	private ArraysTask arr = new ArraysTask();
