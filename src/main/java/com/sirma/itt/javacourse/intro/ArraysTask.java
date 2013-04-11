@@ -15,6 +15,8 @@ public class ArraysTask {
 	 * @param args
 	 *            x
 	 */
+	 // REVIEW: main method should be placed in another file
+	 // REVIEW: don't make all methods 'static'
 	public static void main(String[] args) {
 		final int[] arr = { 4, 7, 9, 3, 1, 7, 5, 12, 32, 67 };
 
@@ -26,6 +28,9 @@ public class ArraysTask {
 	 *            integer array
 	 * @return minElement
 	 */
+	 // REVIEW: what will happen in case of
+	 // 1. arr is null
+	 // 2. can we have some optimizations
 	public static int getMinElement(final int[] arr) {
 		Arrays.sort(arr);
 		return arr[0];
@@ -54,6 +59,8 @@ public class ArraysTask {
 		String elements = "";
 		for (int i = 0; i < arr.length; i++) {
 			elements += arr[i];
+			// REVIEW: good practice is to place curly brackets to every condition or loop block
+			// REVIEW: why is needed to retrieve the array's length on every iteration
 			if (i < arr.length - 1)
 				elements += ", ";
 		}
