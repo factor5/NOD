@@ -15,6 +15,7 @@ public class TestCenterWeight {
 	/**
 	 * main.
 	 */
+	 // REVIEW: you don't need a main method here
 	public static void main() {
 
 	}
@@ -24,6 +25,7 @@ public class TestCenterWeight {
 	 */
 	@Test
 	public void testWeight() {
+		// REVIEW: it is good to test for border cases too
 		int[] z = { 1, 2, 3, 4, 5 };
 		int[] z2 = { 12, 3, 2, 4, 3, 1, 1, 1, 1, 8 };
 		assertEquals("center must be 4", 4, tester.arrWeight(z));
